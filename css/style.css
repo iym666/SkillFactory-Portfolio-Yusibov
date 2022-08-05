@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Open Sans Regural";
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans Italic";
+    src: url(/fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(/fonts/OpenSans-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    font-family: "Open Sans Italic";
+}
+
+ul {
+    font-family: "Open Sans Bold";
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.header-link {
+    margin: 0 10px;
+}
+
+.link {
+    color: darkcyan;
+    transition: color .2s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.aside {
+    width: 350px;
+    height: 560px;
+}
+
+.contacts__phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone__icon {
+    margin-right: 20px;
+}
+
+.contacts__mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail__icon {
+    margin-right: 20px;
+}
+
+.contacts__address {
+    display: flex;
+    align-items: center;
+}
+
+.address__icon {
+    margin-right: 20px;
+}
+
+.main__section {
+    padding-left: 50px;
+}
+
+
+.title {
+    color: gray;
+    text-align: center;
+}
+
+.img {
+    border: 5px solid rgb(187, 187, 187);
+    border-radius: 5px;
+}
+
+.subtitle {
+    border-left: 5px solid darkblue;
+    padding-left: 10px;
+    color: red;
+    margin-top: 30px;
+}
+
+.info {
+    border-left: 5px solid darkblue;
+    padding-left: 10px;
+    color: red;
+    margin-top: 30px;
+}
+
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
